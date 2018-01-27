@@ -1,0 +1,31 @@
+Started by user [8mha:////4PB7EsJ0EtbwTCsgpmWNsJ4Lp/G0k/LON/iJjUj1teKYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/dev-ebudgeting_bpbatam (BATAM)
+[dev-ebudgeting_bpbatam (BATAM)] $ /bin/sh -xe /tmp/jenkins3620861302325861464.sh
++ java -jar /var/jenkins_home/bin/jenkins-cli.jar -auth admin:c52c20af71732b7bc31dec42c224d879 -s http://ebudgetdev.bpbatam.go.id:9345/ build devel_ebudgeting -v -f
+Started devel_ebudgeting #250
+Started from command line by admin
+Building in workspace /home/httpd/ebudgeting_bpbatam
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://git.ipnetsoft.com/ipnetcode/php/ebudgeting_bpbatam.git # timeout=10
+Fetching upstream changes from http://git.ipnetsoft.com/ipnetcode/php/ebudgeting_bpbatam.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress http://git.ipnetsoft.com/ipnetcode/php/ebudgeting_bpbatam.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/development^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/development^{commit} # timeout=10
+Checking out Revision 0b3bb5105e5eafe5d3c2b21b58154786f766aa41 (refs/remotes/origin/development)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b3bb5105e5eafe5d3c2b21b58154786f766aa41
+Commit message: "Merge remote-tracking branch 'origin/dev_pengembangan_2_2' into development"
+ > git rev-list b84ed70c4ca0f06f72590b05781e3a665feb43d3 # timeout=10
+[ebudgeting_bpbatam] $ /bin/sh -xe /tmp/jenkins9046917461000966442.sh
++ git checkout origin/development
+HEAD is now at 0b3bb51... Merge remote-tracking branch 'origin/dev_pengembangan_2_2' into development
++ sudo chown :nginx -R /home/httpd/ebudgeting_bpbatam
++ sudo chmod 777 -R /home/httpd/ebudgeting_bpbatam/storage
++ sudo chmod 777 -R /home/httpd/ebudgeting_bpbatam/bootstrap/cache
++ sudo chmod 777 -R /home/httpd/ebudgeting_bpbatam/public/lampiran
+Finished: SUCCESS
+Completed devel_ebudgeting #250 : SUCCESS
+Finished: SUCCESS

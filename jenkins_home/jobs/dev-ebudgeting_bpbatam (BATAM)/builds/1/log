@@ -1,0 +1,7 @@
+Started by user [8mha:////4PB7EsJ0EtbwTCsgpmWNsJ4Lp/G0k/LON/iJjUj1teKYAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/dev-ebudgeting_bpbatam (BATAM)
+[dev-ebudgeting_bpbatam (BATAM)] $ /bin/sh -xe /tmp/jenkins3786492351485186008.sh
++ java -jar /var/jenkins-home/bin/jenkins-cli.jar -auth admin:c52c20af71732b7bc31dec42c224d879 -s http://ebudgetdev.bpbatam.go.id:9345/ build devel_ebudgeting -v -f
+Error: Unable to access jarfile /var/jenkins-home/bin/jenkins-cli.jar
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
